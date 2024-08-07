@@ -2,6 +2,7 @@ import Social from "@/components/Social"
 import Photo from "@/components/Photo"
 import { Button } from "@/components/ui/button"
 import {FiDownload} from "react-icons/fi"
+import Stats from "@/components/Stats"
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none ">
             <span className="text-xl">Software Developer</span>
             <h1 className=" text-[48px] xl:text-[80px] leading-[1.1] font-semibold mb-6">
-              Hello I'm <br/> <span className=" text-accent">Riyanshu Baskey</span>
+              Hello I'm <br/> <span className=" text-accent font-semibold">Riyanshu Baskey</span>
             </h1>
             <p className=" max-w-[500px] mb-9 text-white/80">
               Results-oriented software engineer with 3+ years of experience in developing robust and scalable solutions.
@@ -36,6 +37,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Stats />
     </section>
   )
 }
